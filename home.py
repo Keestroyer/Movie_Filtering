@@ -7,7 +7,7 @@ import plotly.express as px
 st.title('Movie Analysis')
 st.subheader("Movie Database Cleaning and Analysis By Keegan Nunes")
 
-df1= pd.read_csv("C:/Users/keenu/OneDrive/Desktop/Streamlit/movie.csv")
+df1= pd.read_csv("movie.csv")
 
 tab1,tab3,tab4 = st.tabs(["Data Cleaning",'Data Visualisation','Movie Searchbar'])
 
